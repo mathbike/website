@@ -47,9 +47,9 @@ body {
 /* THEMES */
 .theme-dark {
     --color-background: #0c0d0e;
-    --color-nav: blue
+    --color-nav: #171a1c
 }
 .theme-light {
     --color-background: #whitesmoke;
-    --color-nav: grey
+    --color-nav: #d9d9d9
 }
