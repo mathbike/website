@@ -10,8 +10,8 @@ body {
     background-color: var(--color-background);
     height: 100vh;
     width: 100%;
-    font-family: 'Merriweather', serif;
-    font-size: 9pt;
+    /* font-family: 'Merriweather', serif;
+    font-size: 9pt; */
     display: grid;
     grid-template-columns: auto 980px auto;
     grid-template-rows: 50px auto;
@@ -23,12 +23,13 @@ body {
     background-color: var(--color-nav);
 }
 #nav-left { /* logo */
-    text-align: left;
     font-size: 20pt;
     vertical-align: text-bottom;
 }
 #nav-right { /* icons */
-    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 
 
