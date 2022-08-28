@@ -23,11 +23,12 @@ body {
     background-color: var(--color-nav);
 }
 #nav-left { /* logo */
-    font-size: 20pt;
     display: flex;
     align-items: center;
 }
 #logo {
+    font-size: 20pt;
+    font-weight: bold;
     position: relative;
     left: 10px
 }
