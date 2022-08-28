@@ -41,6 +41,9 @@ body {
     position: relative;
     right: 10px;
 }
+.icon-links:visited {
+    color: var(--color-background)
+}
 /* THEMES */
 .theme-dark {
     --color-background: #0c0d0e;
