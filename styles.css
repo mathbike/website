@@ -23,20 +23,12 @@ body {
     background-color: var(--color-nav);
 }
 #nav-left { /* logo */
-    align-items: center;
     text-align: left;
     font-size: 20pt;
 }
 #nav-right { /* icons */
     text-align: right;
-    align-items: center;
 }
-.main {
-    /*  */
-}
-
-
-
 
 
 .theme-dark {
