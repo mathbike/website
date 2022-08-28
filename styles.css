@@ -37,17 +37,25 @@ body {
     align-items: center;
     justify-content: right;
 }
-#icons { /* icons objects */
+#icons { /* all icons div */
     position: relative;
     right: 10px;
 }
 .material-icons {
     font-size:36px
 }
-.material-icons:hover {
+.icon-links:link {
+    color: aqua;
+}
+.icon-links:visited {
+    color: blue
+}
+.icon-links:hover {
     color: red
 }
-
+.icon-links:active {
+    color: aliceblue;
+}
 
 
 /* THEMES */
