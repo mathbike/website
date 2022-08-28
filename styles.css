@@ -22,22 +22,22 @@ body {
 .nav {
     background-color: var(--color-nav);
 }
-#nav-left { /* logo */
+#nav-left { /* logo side */
     display: flex;
     align-items: center;
 }
-#logo {
+#logo { /* logo object */
     font-size: 20pt;
     font-weight: bold;
     position: relative;
     left: 10px
 }
-#nav-right { /* icons */
+#nav-right { /* icons side */
     display: flex;
     align-items: center;
     justify-content: right;
 }
-#icons {
+#icons { /* icons objects */
     position: relative;
     right: 10px;
 }
