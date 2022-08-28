@@ -24,7 +24,8 @@ body {
 }
 #nav-left { /* logo */
     font-size: 20pt;
-    vertical-align: text-bottom;
+    display: flex;
+    align-items: center;
 }
 #logo {
     position: relative;
