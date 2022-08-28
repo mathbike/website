@@ -10,12 +10,12 @@
       document.getElementById('slider').checked = true;
     }
 })()
-// function to set a given theme/color-scheme
+// function to set the theme and save selection to local storage
 function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
     document.documentElement.className = themeName;
 }
-// function to toggle between light and dark theme
+// function to toggle between themes
 function toggleTheme() {
     if (localStorage.getItem('theme') === 'theme-dark') {
         setTheme('theme-light');
@@ -23,3 +23,6 @@ function toggleTheme() {
         setTheme('theme-dark');
     }
 }
+
+///// LOAD PAGES /////
+
