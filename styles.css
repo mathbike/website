@@ -41,9 +41,15 @@ body {
     position: relative;
     right: 10px;
 }
-.icon-links:visited {
-    color: var(--color-background)
+.material-icons {
+    font-size:36px
 }
+.material-icons:hover {
+    color: red
+}
+
+
+
 /* THEMES */
 .theme-dark {
     --color-background: #0c0d0e;
