@@ -25,6 +25,7 @@ body {
 #nav-left { /* logo */
     text-align: left;
     font-size: 20pt;
+    vertical-align: text-bottom;
 }
 #nav-right { /* icons */
     text-align: right;
@@ -39,10 +40,3 @@ body {
     --color-background: #whitesmoke;
     --color-nav: grey
 }
-.material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 1,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
