@@ -30,7 +30,7 @@ body {
     font-size: 20pt;
     font-weight: bold;
     position: relative;
-    left: 10px
+    left: 10px;
 }
 #nav-right { /* icons side */
     display: flex;
@@ -42,28 +42,34 @@ body {
     right: 10px;
 }
 .material-icons {
-    font-size:36px
+    font-size:36px;
 }
 .icon-links:link {
-    color: aqua;
+    color: var(--color-link);
 }
 .icon-links:visited {
-    color: blue
+    color: var(--color-visited);
 }
 .icon-links:hover {
-    color: red
+    color: var(--color-hover);
 }
 .icon-links:active {
-    color: aliceblue;
+    color: var(--color-active);
 }
-
-
 /* THEMES */
 .theme-dark {
     --color-background: #0c0d0e;
-    --color-nav: #171a1c
+    --color-nav: #171a1c;
+    --color-link: var(--color-link);
+    --color-visited: var(--color-visited);
+    --color-hover: var(--color-hover);
+    --color-active: var(--color-active);
 }
 .theme-light {
     --color-background: #whitesmoke;
-    --color-nav: #d9d9d9
+    --color-nav: #d9d9d9;
+    --color-link: var(--color-link);
+    --color-visited: var(--color-visited);
+    --color-hover: var(--color-hover);
+    --color-active: var(--color-active);
 }
