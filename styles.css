@@ -26,10 +26,18 @@ body {
     font-size: 20pt;
     vertical-align: text-bottom;
 }
+#logo {
+    position: relative;
+    left: 10px
+}
 #nav-right { /* icons */
     display: flex;
     align-items: center;
     justify-content: right;
+}
+#icons {
+    position: relative;
+    right: 10px;
 }
 
 
