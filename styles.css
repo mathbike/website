@@ -59,7 +59,7 @@ body {
 /* THEMES */
 .theme-dark {
     --color-background: #0c0d0e;
-    --color-nav: #171a1c;
+    --color-nav: #171a1c; /* 10 % lighter */
     --color-link: #d9d9d9;
     --color-visited: #d9d9d9;
     --color-hover: #171a1c;
