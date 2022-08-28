@@ -5,11 +5,11 @@
 }
 
 :root { /* Selects the document's root element: <html> */
-    background-color: #efefef;
+    background-color: #0c0d0e;
 }
 
 body {
-    background-color: #efefef;
+    background-color: #0c0d0e;
     height: 100vh;
     width: 100%;
     display: grid;
