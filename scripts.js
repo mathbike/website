@@ -32,3 +32,6 @@ function loadHead() {
 function loadNav() {
     $("#fff").load('nav.html')
 }
+function loadLogin() {
+    $("#main").load('login.html')
+}
