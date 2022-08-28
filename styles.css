@@ -10,17 +10,14 @@ body {
     background-color: var(--color-background);
     height: 100vh;
     width: 100%;
-
+    font-family: 'Merriweather', serif;
+    font-size: 9pt;
     display: grid;
     grid-template-columns: auto 980px auto;
     grid-template-rows: 50px auto;
     grid-template-areas: 
         "nav-left nav nav-right"
         "main-left main main-right";
-
-
-    /* font-family: 'Merriweather', serif;
-    font-size: 9pt; */
 }
 .nav {
     background-color: var(--color-nav);
