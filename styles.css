@@ -4,10 +4,10 @@
     padding: 0px; /* Sets the padding to default to 0 for all elements */
 }
 :root { /* Selects the document's root element: <html> */
-    background-color: #0c0d0e;
+    background-color: var(--color-background);
 }
 body {
-    background-color: white;/* #0c0d0e; */
+    background-color: var(--color-background);
     height: 100vh;
     width: 100%;
     display: grid;
