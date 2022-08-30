@@ -35,3 +35,6 @@ function loadNav() {
 function loadLogin() {
     $("#main").load('login.html')
 }
+function loadTable() {
+    $("#main").load('table.html')
+}
